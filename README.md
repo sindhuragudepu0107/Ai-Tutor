@@ -1,2 +1,21 @@
-# Ai-Tutor
-An AI Tutor is an intelligent learning assistant that uses Artificial Intelligence (AI) to provide personalized education and guidance. It helps students understand concepts, answer questions, explain difficult topics, generate quizzes, solve problems step by step, and adapt lessons to the learner's skill level
+# AI Tutor using Google Gemini
+
+## Features
+- Interactive AI Tutor
+- Subject & difficulty selection
+- Practical examples
+- Quiz generation
+- Markdown lesson download
+
+## Setup
+
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+Rename .env.example to .env
+
+GOOGLE_API_KEY=YOUR_API_KEY
+
+Run:
+streamlit run app.py
